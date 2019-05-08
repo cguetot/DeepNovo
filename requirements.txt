@@ -1,0 +1,7 @@
+cython
+tensorflow
+lxml
+numpy
+matplotlib
+pyteomics
+biopython

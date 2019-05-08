@@ -182,7 +182,7 @@ mass_AA = {'_PAD': 0.0,
            'V': 99.06841, # 19
           }
 
-mass_ID = [mass_AA[vocab_reverse[x]] for x in xrange(vocab_size)]
+mass_ID = [mass_AA[vocab_reverse[x]] for x in range(vocab_size)]
 mass_ID_np = np.array(mass_ID, dtype=np.float32)
 
 mass_AA_min = mass_AA["G"] # 57.02146

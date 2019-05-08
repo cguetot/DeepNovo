@@ -2481,8 +2481,8 @@ def train():
 
       #~ gc .collect()
 
-      print("RESOURCE-train_cycle")
-            # resource.getrusage(resource.RUSAGE_SELF).ru_maxrss / 1000)
+      # print("RESOURCE-train_cycle: ",
+      #       resource.getrusage(resource.RUSAGE_SELF).ru_maxrss / 1000)
 
       # stop training if >= 50 epochs
       epoch = (model.global_step.eval()

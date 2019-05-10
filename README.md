@@ -66,7 +66,11 @@ network models.
 
 ## How to use DeepNovo?
 
-DeepNovo is implemented and tested with Python 2.7, TensorFlow 1.2 and Cython.
+DeepNovo has been developed and implemented with Python 2.7, TensorFlow 1.2 and Cython.
+It has been tested with Python 3.7, TensorFlow 2.0 and Cython as well.
+To install requirements use:
+
+    pip install -r requirements.txt
 
 **Step 0**: Build deepnovo_cython_setup to accelerate Python with C.
 

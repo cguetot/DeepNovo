@@ -413,6 +413,7 @@ input_file_train = "data.training/dia.xchen.nov27/fraction_1.mgf.split.train.dup
 input_file_valid = "data.training/dia.xchen.nov27/fraction_1.mgf.split.valid.dup"
 input_file_test = "data.training/dia.xchen.nov27/fraction_1.mgf.split.test.dup"
 decode_test_file = "data.training/dia.xchen.nov27/fraction_1.mgf.split.test.dup"
+decode_output_file = decode_test_file + ".deepnovo_decode"
 # denovo files
 denovo_input_file = "data.training/dia.xchen.nov27/fraction_1.mgf.split.test.dup"
 denovo_output_file = denovo_input_file + ".deepnovo_denovo"
